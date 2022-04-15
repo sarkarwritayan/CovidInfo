@@ -1,0 +1,118 @@
+.bodyImage{
+    background:url("./Assets/Images/covidWallpaper1.jpg") no-repeat;
+    background-size: cover;
+}
+.nav{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 2;
+}
+.position{
+    margin-top: 12vh;
+}
+.cardSize{
+    height: 430px;
+    width: 60vw;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.flagWidth{
+    width: 22vw;
+}
+.htAdjust{
+    height: 994px;
+}
+.select-size-adjust{
+    width: 400px; 
+    border:2px solid black; 
+}
+.about{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-card{
+    width: 600px;
+    height:300px;
+    
+}
+
+@media only screen and (max-width:812px){
+    .select-size-adjust{
+        width: 300px; 
+    }
+
+}
+
+@media only screen and (max-width:760px){
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardSize{
+        height: 630px;
+        width: 350px;
+    }
+    .flagWidth{
+        width: 150px;
+    }
+    .update{
+        width:100%;
+    }
+    .update>pre{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .select-size-adjust{
+        width: 200px; 
+    }
+}
+@media only screen and (max-width:620px){
+    .about-card{
+        width: 450px;
+        height:300px;
+        
+    }
+}
+@media only screen and (max-width:468px){
+    .about-card{
+        width: 350px;
+        height:300px;
+        
+    }
+
+}
+@media only screen and (max-width:380px){
+    .about-card{
+        width: 250px;
+        height:500px;
+        
+    }
+
+}
+@media only screen and (max-width:270px){
+    .about-card{
+        width: 200px;
+        height:700px;
+        
+    }
+
+}
+
